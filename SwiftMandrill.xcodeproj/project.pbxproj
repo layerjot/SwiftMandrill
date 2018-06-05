@@ -28,6 +28,8 @@
 		83F1DE641C4D8DAA000A2701 /* SwiftMandrillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1DE631C4D8DAA000A2701 /* SwiftMandrillTests.swift */; };
 		83F1DE731C4D92FA000A2701 /* MandrillAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1DE721C4D92FA000A2701 /* MandrillAPI.swift */; };
 		BA7129F845961974A9183D6D /* Pods_SwiftMandrillTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FE60BB8A16F89AFAEA4BF2 /* Pods_SwiftMandrillTests.framework */; };
+		F68A8AC69CDB20D4EC9F2B12 /* Pods_SwiftMandrill_SwiftMandrillTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FC2A028D0B00A6EB77645B /* Pods_SwiftMandrill_SwiftMandrillTests.framework */; };
+		F950D488E115CC7F09F85C3C /* Pods_SwiftMandrill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0646A5582C075ED99FDD90E1 /* Pods_SwiftMandrill.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0646A5582C075ED99FDD90E1 /* Pods_SwiftMandrill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMandrill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52972C55189D7FBC83B98B72 /* Pods-SwiftMandrill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMandrill.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMandrill/Pods-SwiftMandrill.release.xcconfig"; sourceTree = "<group>"; };
 		73E4AEAF62018D0943795764 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8353993F1C4EEAD00089FAC5 /* MandrillError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MandrillError.swift; sourceTree = "<group>"; };
 		837E3BCB1C50A1D1000A3BCE /* UtilsSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsSpecs.swift; sourceTree = "<group>"; };
@@ -65,7 +69,11 @@
 		83F1DE631C4D8DAA000A2701 /* SwiftMandrillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMandrillTests.swift; sourceTree = "<group>"; };
 		83F1DE651C4D8DAA000A2701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F1DE721C4D92FA000A2701 /* MandrillAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MandrillAPI.swift; sourceTree = "<group>"; };
+		84FC2A028D0B00A6EB77645B /* Pods_SwiftMandrill_SwiftMandrillTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMandrill_SwiftMandrillTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A610D88FB75A20CF58DE2748 /* Pods-SwiftMandrill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMandrill.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMandrill/Pods-SwiftMandrill.debug.xcconfig"; sourceTree = "<group>"; };
 		B0FE60BB8A16F89AFAEA4BF2 /* Pods_SwiftMandrillTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMandrillTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC03B9656A1732B4A6D6EA5 /* Pods-SwiftMandrill-SwiftMandrillTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMandrill-SwiftMandrillTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMandrill-SwiftMandrillTests/Pods-SwiftMandrill-SwiftMandrillTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6C513D2AA682E8953FAF2FB /* Pods-SwiftMandrill-SwiftMandrillTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMandrill-SwiftMandrillTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMandrill-SwiftMandrillTests/Pods-SwiftMandrill-SwiftMandrillTests.release.xcconfig"; sourceTree = "<group>"; };
 		F897C16737CCE2B75B4B2FA5 /* Pods-SwiftMandrillTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMandrillTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMandrillTests/Pods-SwiftMandrillTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD71F7B8EE8E76B6761BBCF1 /* Pods-SwiftMandrillTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMandrillTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMandrillTests/Pods-SwiftMandrillTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F950D488E115CC7F09F85C3C /* Pods_SwiftMandrill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +93,7 @@
 			files = (
 				83F1DE5F1C4D8DAA000A2701 /* SwiftMandrill.framework in Frameworks */,
 				BA7129F845961974A9183D6D /* Pods_SwiftMandrillTests.framework in Frameworks */,
+				F68A8AC69CDB20D4EC9F2B12 /* Pods_SwiftMandrill_SwiftMandrillTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +105,8 @@
 			children = (
 				73E4AEAF62018D0943795764 /* Pods.framework */,
 				B0FE60BB8A16F89AFAEA4BF2 /* Pods_SwiftMandrillTests.framework */,
+				0646A5582C075ED99FDD90E1 /* Pods_SwiftMandrill.framework */,
+				84FC2A028D0B00A6EB77645B /* Pods_SwiftMandrill_SwiftMandrillTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,6 +219,10 @@
 			children = (
 				FD71F7B8EE8E76B6761BBCF1 /* Pods-SwiftMandrillTests.debug.xcconfig */,
 				F897C16737CCE2B75B4B2FA5 /* Pods-SwiftMandrillTests.release.xcconfig */,
+				A610D88FB75A20CF58DE2748 /* Pods-SwiftMandrill.debug.xcconfig */,
+				52972C55189D7FBC83B98B72 /* Pods-SwiftMandrill.release.xcconfig */,
+				BBC03B9656A1732B4A6D6EA5 /* Pods-SwiftMandrill-SwiftMandrillTests.debug.xcconfig */,
+				C6C513D2AA682E8953FAF2FB /* Pods-SwiftMandrill-SwiftMandrillTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -229,10 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83F1DE681C4D8DAA000A2701 /* Build configuration list for PBXNativeTarget "SwiftMandrill" */;
 			buildPhases = (
+				35419E6A06999422DC18D9C2 /* [CP] Check Pods Manifest.lock */,
 				83F1DE4F1C4D8DAA000A2701 /* Sources */,
 				83F1DE501C4D8DAA000A2701 /* Frameworks */,
 				83F1DE511C4D8DAA000A2701 /* Headers */,
 				83F1DE521C4D8DAA000A2701 /* Resources */,
+				B4695CFD442583AEFB2D7468 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,7 +289,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = greenpixels;
 				TargetAttributes = {
 					83F1DE531C4D8DAA000A2701 = {
@@ -331,13 +349,57 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMandrill-SwiftMandrillTests/Pods-SwiftMandrill-SwiftMandrillTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMandrill-SwiftMandrillTests/Pods-SwiftMandrill-SwiftMandrillTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35419E6A06999422DC18D9C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMandrill-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4695CFD442583AEFB2D7468 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMandrillTests/Pods-SwiftMandrillTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMandrill/Pods-SwiftMandrill-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D4F4D7B5413B1AEC6A5A3290 /* [CP] Check Pods Manifest.lock */ = {
@@ -346,13 +408,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftMandrill-SwiftMandrillTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DDEAD97604D4862495298B39 /* [CP] Copy Pods Resources */ = {
@@ -367,7 +432,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMandrillTests/Pods-SwiftMandrillTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMandrill-SwiftMandrillTests/Pods-SwiftMandrill-SwiftMandrillTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,14 +484,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -469,14 +542,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -507,6 +588,7 @@
 		};
 		83F1DE691C4D8DAA000A2701 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A610D88FB75A20CF58DE2748 /* Pods-SwiftMandrill.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -528,6 +610,7 @@
 		};
 		83F1DE6A1C4D8DAA000A2701 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52972C55189D7FBC83B98B72 /* Pods-SwiftMandrill.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -548,7 +631,7 @@
 		};
 		83F1DE6C1C4D8DAA000A2701 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD71F7B8EE8E76B6761BBCF1 /* Pods-SwiftMandrillTests.debug.xcconfig */;
+			baseConfigurationReference = BBC03B9656A1732B4A6D6EA5 /* Pods-SwiftMandrill-SwiftMandrillTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftMandrillTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -560,7 +643,7 @@
 		};
 		83F1DE6D1C4D8DAA000A2701 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F897C16737CCE2B75B4B2FA5 /* Pods-SwiftMandrillTests.release.xcconfig */;
+			baseConfigurationReference = C6C513D2AA682E8953FAF2FB /* Pods-SwiftMandrill-SwiftMandrillTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftMandrillTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

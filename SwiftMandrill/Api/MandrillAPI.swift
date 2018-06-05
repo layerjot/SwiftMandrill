@@ -97,7 +97,7 @@ open class MandrillAPI {
             Alamofire.request(url, method: .post, parameters: params, encoding: JSONEncoding.default, headers: nil)
                 .validate()
                 .responseJSON { response in
-                    response.result.isFailure
+                    _ = response.result.isFailure
                     
                     switch response.result {
                     case .failure(let error):

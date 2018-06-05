@@ -1,21 +1,25 @@
-platform :ios, ‘9.0’
-use_frameworks!
-
-plugin 'cocoapods-keys'
-
-pod 'Alamofire', '~> 4.3.0’
-pod 'ObjectMapper', '~> 2.2.2’
+platform :ios, '9.0'
 
 
-target 'SwiftMandrillTests' do
-  pod 'Quick', '~> 1.0.0'
-  pod 'Nimble', '~> 5.1.1'
+target 'SwiftMandrill' do
+    use_frameworks!
+    
+    plugin 'cocoapods-keys'
+    
+    # Pods for SwiftMandrill
+    pod 'Alamofire', '~> 4.7.2'
+    pod 'ObjectMapper', '~> 3.2.0'
 
-plugin 'cocoapods-keys', {
-  :project => "SwiftMandrill",
-  :keys => [
-    "MANDRILL_API"  
-]}
+    target 'SwiftMandrillTests' do
+      pod 'Quick', '~> 1.3.0'
+      pod 'Nimble', '~> 7.1.1'
 
+    plugin 'cocoapods-keys', {
+      :project => "SwiftMandrill",
+      :keys => [
+        "MANDRILL_API"
+    ]}
+
+    end
 end
 
