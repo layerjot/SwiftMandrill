@@ -8,7 +8,7 @@ target 'SwiftMandrill' do
     
     # Pods for SwiftMandrill
     pod 'Alamofire', '~> 4.7.2'
-    pod 'ObjectMapper', '~> 3.2.0'
+    pod 'ObjectMapper', '~> 3.4.1'
 
     target 'SwiftMandrillTests' do
       pod 'Quick', '~> 1.3.0'
