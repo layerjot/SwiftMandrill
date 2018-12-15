@@ -19,7 +19,7 @@ SwiftMandrill provides simple alternative when you need to send an email with yo
   s.source_files  = "SwiftMandrill/", "SwiftMandrill/**/*.{h,m,swift}"
 
   s.requires_arc = true
-  s.dependency 'ObjectMapper', '~> 3.4.1'
+  s.dependency 'ObjectMapper', :git => 'git@github.com:tristanhimmelman/ObjectMapper.git'
   s.dependency 'Alamofire', '~> 4.7.2'
 
 end
